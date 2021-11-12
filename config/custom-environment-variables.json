@@ -1,0 +1,5 @@
+{
+    "name": "tix.africa",
+    "jwtPass": "jwtKey",
+    "db": "db"
+}  

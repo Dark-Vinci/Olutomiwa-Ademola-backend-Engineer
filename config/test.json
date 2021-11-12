@@ -1,0 +1,5 @@
+{
+    "name": "tix.africa",
+    "jwtPass": "1234",
+    "db": "mongodb://localhost/tix_test"
+}
