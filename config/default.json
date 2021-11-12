@@ -1,5 +1,5 @@
 {   
     "name": "nft_art_creator",
     "jwtPass": "",
-    "db": ""
+    "db": "mongodb://localhost/tix"
 }

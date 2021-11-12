@@ -3,7 +3,7 @@
 const express = require('express');
 const helmet = require('helmet');
 const morgan = require('morgan');
-// const compression = require('compression');
+const compression = require('compression');
 
 const register = require('../routes/register');
 const login = require('../routes/login');
@@ -17,7 +17,7 @@ module.exports = function (app) {
         app.use(morgan('tiny'));
     }
     app.use(express.json());
-    // app.use(compression())
+    app.use(compression());
     app.use(express.urlencoded({ extended: true }));
 
     app.use('/api/register', register);
